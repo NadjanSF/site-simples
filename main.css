@@ -1,0 +1,33 @@
+
+body {
+    background: var(--bg);
+    font-family: monospace;
+}
+.light-theme {
+    --bg: #ffffff;
+    --frontColor: #000000;
+    --btnBg: #000000;
+    --btnFontColor: #ffffff;
+}
+.dark-theme {
+    --bg: #000000;
+    --frontColor: #00ff00;
+    --btnBg: #ffffff;
+    --btnFontColor: #000000;
+}
+.cyber-theme {
+    --bg: #001f3f;
+    --frontColor: #ffffff;
+    --btnBg: #39ff14;
+    --btnFontColor: #000000;
+}
+.btn {
+    position: relative;
+    margin: 20px;
+    padding: 10px 20px;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+    border-radius: 8px;
+    cursor: pointer;
+}
